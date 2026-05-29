@@ -99,7 +99,7 @@ export default function Footer() {
 
           {footerLinks.map((group) => (
             <div key={group.title}>
-              <h4 className="mb-4 text-sm font-semibold text-white/60 uppercase tracking-wider">
+              <h4 className="mb-4 text-sm font-semibold text-white/60 uppercase tracking-wider font-mono">
                 {group.title}
               </h4>
 

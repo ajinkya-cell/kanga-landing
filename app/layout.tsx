@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import { Playfair_Display, Outfit } from "next/font/google";
+import { Geist_Mono, Outfit } from "next/font/google";
 import "./globals.css";
 
-const playfair = Playfair_Display({
-  variable: "--font-serif",
+const geistMono = Geist_Mono({
+  variable: "--font-mono",
   subsets: ["latin"],
 });
 
@@ -25,7 +25,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${playfair.variable} ${outfit.variable} antialiased`}
+      className={`${geistMono.variable} ${outfit.variable} antialiased`}
     >
       <body className="bg-[#faf8f5] text-[#2a2927] min-h-screen flex flex-col selection:bg-[#e2d9f3] selection:text-[#2a2927]">
         {children}

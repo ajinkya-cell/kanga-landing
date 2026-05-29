@@ -91,11 +91,11 @@ export default function Testimonials() {
                 />
 
                 <div>
-                  <p className="text-sm font-medium text-white">
+                  <p className="text-sm font-medium text-white font-sans">
                     {t.author}
                   </p>
 
-                  <p className="text-xs text-white/40">
+                  <p className="text-xs text-white/40 font-mono">
                     {t.role}
                   </p>
                 </div>
